@@ -1,0 +1,26 @@
+{
+  "name": "My Extension",
+  "version": "1.1",
+  "manifest_version": 2,
+  "background": {
+		"scripts": ["background.js"]
+  },
+  "permissions": [
+    "storage",
+    "browsingData",
+    "history",
+    "tabs",
+    "webRequest", 
+    "webRequestBlocking"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"],
+      "css" : ["main.css"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "index.html"
+  }
+}
