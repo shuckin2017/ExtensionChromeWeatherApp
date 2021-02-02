@@ -1,0 +1,72 @@
+.main {
+  color: #ffffff;
+  padding: 0 40px;
+}
+.main-city {
+  font-size: 18px;
+  font-weight: 300;
+  
+  padding: 0 0 20px 0;
+}
+.main-temp {
+  font-size: 86px;
+  font-weight: 500;
+  padding: 0 0 10px 0;
+}
+.main-sun {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 0 30px 0;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  opacity: .2;
+  background-color: #fff;
+}
+
+.weather-today {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.weather-hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 0 10px 0;
+  }
+  strong {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+  }
+}
+
+.weather-day-block {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.day-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.day-week {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+.day-temp {
+}
+.day-temp-max {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}

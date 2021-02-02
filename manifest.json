@@ -1,5 +1,5 @@
 {
-  "name": "My Extension",
+  "name": "Extension Chrome Weather app",
   "version": "1.1",
   "manifest_version": 2,
   "background": {
