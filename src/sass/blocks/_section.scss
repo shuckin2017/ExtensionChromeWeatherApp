@@ -11,12 +11,18 @@
 .main-temp {
   font-size: 86px;
   font-weight: 500;
-  padding: 0 0 10px 0;
+  padding: 0 0 0 0;
 }
-.main-sun {
+.main-desc {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 0 30px 0;
+}
+
+.main-temp-max {
   font-size: 16px;
   font-weight: 300;
-  padding: 0 0 30px 0;
+  padding: 0 0 10px 0;
 }
 
 .hr {
@@ -36,13 +42,14 @@
   flex-direction: column;
   align-items: center;
   span {
+    opacity: .8;
     font-size: 14px;
     color: #fff;
     font-weight: 300;
     padding: 0 0 10px 0;
   }
   strong {
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     font-weight: 500;
   }

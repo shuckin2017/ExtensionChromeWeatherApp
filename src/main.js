@@ -1,6 +1,7 @@
 const city = 'moscow';
 const key = 'd4ed96f83af6fc00c1799436b53137b6';
-const url = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=ru`;
+// const url = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=ru`;
+const url = fakeJsom.json;
 const geoURL = 'https://freegeoip.app/json/';
 
 const weatherCity = document.querySelector('.main-city'),

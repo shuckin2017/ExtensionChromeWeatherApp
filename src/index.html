@@ -1,88 +1,77 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
+
 <body>
   <div class="wrapper">
     <div class="app">
       <div class="app-header header">
-          <div class="header-body">
-                <div class="header-menu">
-                  <span class="header-menu__icon"></span>
-                  <span class="header-menu__icon"></span>
-                  <span class="header-menu__icon"></span>
-                </div>
-              <div class="header-data"></div>
-              <div class="header-temp">°C</div>
+        <div class="header-body">
+          <div class="header-menu">
+            <span class="header-menu__icon"></span>
+            <span class="header-menu__icon"></span>
+            <span class="header-menu__icon"></span>
           </div>
+          <div class="header-data"></div>
+          <div class="header-temp">°C</div>
+        </div>
       </div>
       <div class="app-main">
-          <section class="main">
-              <div class="main-city">Москва</div>
-              <div class="main-temp">-12°</div>
-              <div class="main-sun">Winter</div>
-          </section>
-          <div class="hr"></div>
-          <section class="weather-today">
-            <div class="weather-hours">
-                <span>Сейчас</span>
-                <strong>28°</strong>
-            </div>
-            <div class="weather-hours">
-                <span>1 час</span>
-                <strong>28°</strong>
-            </div>
-            <div class="weather-hours">
-                <span>2 часа</span>
-                <strong>28°</strong>
-            </div>
-            <div class="weather-hours">
-                <span>3 часа</span>
-                <strong>28°</strong>
-            </div>
-            <div class="weather-hours">
-                <span>4 часа</span>
-                <strong>28°</strong>
-            </div>
-          </section>
-          <div class="hr"></div>
-          <section class="weather-day-block">
-            <div class="day-block">
-                <div class="day-week">Понельник</div>
-                <div class="day-temp"></div>
-                <div class="day-temp-max">-12 / -13</div>
-            </div>
-            <div class="day-block">
-                <div class="day-week">Вторник</div>
-                <div class="day-temp"></div>
-                <div class="day-temp-max">-12 / -13</div>
-            </div>
-            <div class="day-block">
-                <div class="day-week">Среда</div>
-                <div class="day-temp"></div>
-                <div class="day-temp-max">-12 / -13</div>
-            </div>
-            <div class="day-block">
-                <div class="day-week">Четверг</div>
-                <div class="day-temp"></div>
-                <div class="day-temp-max">-12 / -13</div>
-            </div>
-            <div class="day-block">
-                <div class="day-week">Пятница</div>
-                <div class="day-temp"></div>
-                <div class="day-temp-max">-12 / -13</div>
-            </div>
-          </section>
+        <section class="main">
+          <div class="main-city"></div>
+          <div class="main-temp"></div>
+          <div class="main-temp-max"></div>
+          <div class="main-desc"></div>
+        </section>
+        <div class="hr"></div>
+        <section class="weather-today">
+        </section>
+        <div class="hr"></div>
+        <section class="weather-day-block">
+          <div class="day-block">
+            <div class="day-week">Понельник</div>
+            <div class="day-temp"></div>
+            <div class="day-temp-max">-12 / -13</div>
+          </div>
+          <div class="day-block">
+            <div class="day-week">Вторник</div>
+            <div class="day-temp"></div>
+            <div class="day-temp-max">-12 / -13</div>
+          </div>
+          <div class="day-block">
+            <div class="day-week">Среда</div>
+            <div class="day-temp"></div>
+            <div class="day-temp-max">-12 / -13</div>
+          </div>
+          <div class="day-block">
+            <div class="day-week">Четверг</div>
+            <div class="day-temp"></div>
+            <div class="day-temp-max">-12 / -13</div>
+          </div>
+          <div class="day-block">
+            <div class="day-week">Пятница</div>
+            <div class="day-temp"></div>
+            <div class="day-temp-max">-12 / -13</div>
+          </div>
+        </section>
+      </div>
+      <div class="spinner__wrapper">
+        <div class="spinner__inner"></div>
+        <div class="spinner"></div>
       </div>
     </div>
   </div>
 
+
   <script src="script.js"></script>
 </body>
+
 </html>
