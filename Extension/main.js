@@ -1,5 +1,4 @@
 const geoURL = 'https://freegeoip.app/json/';
-// const key = 'd4ed96f83af6fc00c1799436b53137b6';
 const key = '1ef8550400ece86661dfa0fc0e0af7d7';
 const city = 'Moscow';
 const weatUrl = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=ru`;
@@ -93,19 +92,22 @@ const setWeatherContent = (weatherMath, description, temp_min, temp_max) => {
 
 const setBackground = (time) => {
   const carrTime = time.slice(-8, -6);
-  console.log(carrTime);
+  console.info(carrTime);
   const appBG = document.querySelector('.app');
 
   switch (carrTime) {
     case '18':
       appBG.style.backgroundColor = '#FDC830';
       appBG.style.backgroundImage = 'linear-gradient(to right, #F37335, #FDC830)';
+      break;
     case '21':
       appBG.style.backgroundColor = '#0093E9';
       appBG.style.backgroundImage = 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)';
+      break;
     default:
       appBG.style.backgroundColor = '#0093E9';
       appBG.style.backgroundImage = 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)';
+      break;
   }
 }
 

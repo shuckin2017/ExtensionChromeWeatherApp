@@ -29,6 +29,8 @@ const getDate = () => {
 
 getDate();
 
+
+
 const changeScale = () => {
   const postScale = document.querySelector('.header-temp');
   postScale.addEventListener('click', () => {
@@ -114,10 +116,7 @@ const setWeatherDate = (weather) => {
   const toDegC = (value, scale) => {
     return (scale === 'C' ? Math.round(value - 273) : Math.round((value * 9 / 5) - 459.67));
   }
-  // const sunset = new Date(1612588422);
-  // console.log(sunset);
-  // // const sunrise = (new Date (weather.city.sunrise)).slice();
-  
+
   weather.list.slice(0, 1).forEach((elem) => {
     const weatherMath = toDegC(elem.main.temp, 'C');
     const description = elem.weather[0].description;
